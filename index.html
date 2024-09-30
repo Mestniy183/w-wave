@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
 </head>
 
@@ -47,6 +48,29 @@
                     </svg>
 
                 </button>
+            </div>
+        </div>
+        <div class="header-table">
+            <div class="container">
+                <nav class=" header-table__nav">
+                    <ul class="nav__list list-reset">
+                        <li class="nav__item">
+                            <a href="#podcasts" class="nav__link">Подкасты</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#broadcasts" class="nav__link">Передачи</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#guests" class="nav__link">Гости</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#playlist" class="nav__link">Плейлисты</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">О нас</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -336,7 +360,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-ru"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-1.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-1.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-1.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Ploho</h3>
@@ -347,7 +374,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-ru"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-2.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-2.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-2.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Molchat Doma</h3>
@@ -358,7 +388,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-ru"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-3.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-3.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-3.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Motorama</h3>
@@ -369,7 +402,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-ru"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-4.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-4.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-4.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Human Tetris</h3>
@@ -380,7 +416,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-ru"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-5.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-5.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-5.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Буерак</h3>
@@ -391,7 +430,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-ru"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-6.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-6.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-6.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Июльские Дни</h3>
@@ -402,7 +444,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-uk"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-7.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-7.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-7.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Joy Division</h3>
@@ -413,7 +458,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-uk"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-8.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-8.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-8.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">The Cure</h3>
@@ -424,7 +472,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-uk"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-9.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-9.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-9.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">The Smiths</h3>
@@ -435,7 +486,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-uk"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-10.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-10.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-10.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">New Order</h3>
@@ -446,7 +500,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-uk"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-11.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-11.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-11.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Bauhaus</h3>
@@ -458,7 +515,10 @@
                     <li class="playlist__item">
                         <div class="playlist__photo">
                             <span class="playlist__flag playlist__flag-uk"></span>
-                            <img class="playlist__img" src="img/playlist/1920/playlists-12.jpg" alt="Обложка плейлиста">
+                            <picture>
+                                <source media="(max-width:1024px )" srcset="img/playlist/1024and768/playlists-12.jpg">
+                                <img class="playlist__img" srcset="img/playlist/1920/playlists-12.jpg" alt="Обложка плейлиста">
+                            </picture>
                         </div>
                         <div class="playlist__item-content">
                             <h3 class="playlist__item-title">Gang Of Four</h3>
@@ -472,7 +532,8 @@
             <div class="container">
                 <div class="adv__container">
                     <picture class="adv__picture">
-                        <img class="adv__img" src="img/adv/adv-1920.png" alt="Радио">
+                        <source media="(max-width:1024px )" srcset="img/adv/adv-1024.png">
+                        <img class="adv__img" srcset="img/adv/adv-1920.png" alt="Радио">
                     </picture>
                     <div class="adv__content">
                         <h2 class="adv__title site-title">Будь с нами на одной волне!</h2>
@@ -529,7 +590,10 @@
                 </div>
                 <ul class="about__list list-reset">
                     <li class="about__item">
-                        <img class="about__img" src="img/about/about-item-1.jpg" alt="Фотография эксперта">
+                        <picture>
+                            <source media="(max-width:1024px )" srcset="img/about/about-item-1-1024.jpg">
+                            <img class="about__img" srcset="img/about/about-item-1.jpg" alt="Фотография эксперта">
+                        </picture>
                         <h3 class="about__item-title">Дмитрий Гутенберг</h3>
                         <p class="about__item-text">
                             Эксперт (ну, почти) по всем вопросам (почти)
@@ -537,7 +601,10 @@
                     </li>
 
                     <li class="about__item">
-                        <img class="about__img" src="img/about/about-item-2.jpg" alt="Фотография эксперта">
+                        <picture>
+                            <source media="(max-width:1024px )" srcset="img/about/about-item-2-1024.jpg">
+                            <img class="about__img" srcset="img/about/about-item-2.jpg" alt="Фотография эксперта">
+                        </picture>
                         <h3 class="about__item-title">Анна Васильева</h3>
                         <p class="about__item-text">
                             Как я здесь оказалась? А главное — зачем?
@@ -545,7 +612,10 @@
                     </li>
 
                     <li class="about__item">
-                        <img class="about__img" src="img/about/about-item-3.jpg" alt="Фотография эксперта">
+                        <picture>
+                            <source media="(max-width:1024px )" srcset="img/about/about-item-3-1024.jpg">
+                            <img class="about__img" srcset="img/about/about-item-3.jpg" alt="Фотография эксперта">
+                        </picture>
                         <h3 class="about__item-title">Пётр Дмитриевский</h3>
                         <p class="about__item-text">
                             Господа! Внимание! Благодарю за внимание!
@@ -553,7 +623,10 @@
                     </li>
 
                     <li class="about__item">
-                        <img class="about__img" src="img/about/about-item-4.jpg" alt="Фотография эксперта">
+                        <picture>
+                            <source media="(max-width:1024px )" srcset="img/about/about-item-4-1024.jpg">
+                            <img class="about__img" srcset="img/about/about-item-4.jpg" alt="Фотография эксперта">
+                        </picture>
                         <h3 class="about__item-title">Татьяна Флеганова</h3>
                         <p class="about__item-text">
                             Одна я в пальто стою красивая, а вокруг…
