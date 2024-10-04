@@ -616,6 +616,7 @@ img {
     border: 1px solid var(--light-color);
     padding: 16px;
     transition: var(--animation-transition);
+    flex: 1;
 }
 
 .playlist__item:hover .playlist__item-content {
